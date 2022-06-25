@@ -1,4 +1,4 @@
-import CacheImage from './components/CacheImage'
+import CacheImage from './index'
 
 export default function App() {
   return <CacheImage />
