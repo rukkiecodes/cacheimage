@@ -1,5 +1,5 @@
 {
-  "name": "expo-cache-image",
+  "name": "@rukkiecodes/expo-cached-image",
   "version": "1.0.1",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
