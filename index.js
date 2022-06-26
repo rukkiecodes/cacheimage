@@ -31,10 +31,10 @@ const CacheImage = (props) => {
   return (
     <>
       {
-        type == 'image' && <Image style={style} width={width} resizeMode={resizeMode} source={{ uri: url }} />
+        type == 'image' && <Image style={style} width={400 || width} resizeMode={'contain' || resizeMode} source={{ uri: 'https://via.placeholder.com/350x150' || url }} />
       }
       {
-        type == 'autoHeight' && <AutoHeightImage style={style} width={width} resizeMode={resizeMode} source={{ uri: url }} />
+        type == 'autoHeight' && <AutoHeightImage style={style} width={400 || width} resizeMode={'contain' || resizeMode} source={{ uri: 'https://via.placeholder.com/350x150' || url }} />
       }
     </>
   )
